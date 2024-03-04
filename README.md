@@ -1,17 +1,7 @@
 # Rce-Founder-ruby
-
-# Multi-Threaded Web Scanner
-
 ## Description
 
 A multi-threaded web scanner script designed to explore and identify potential vulnerabilities in web applications. Created by Maven, this tool emphasizes responsible use and urges users to respect others, avoiding any harmful activities.
-
-## Key Features
-
-- Utilizes HTTParty for making HTTP requests.
-- Implements multi-threading to enhance scanning speed.
-- Parses lists of URLs from 'list_url.txt' and 'list_url_download.txt' for targeted exploration.
-- Reports potential vulnerabilities, such as 'Index of /vendor/phpunit/phpunit/src/Util/PHP' and 'eval-stdin.php', to a 'save.txt' file.
 
 ## Usage
 
@@ -26,6 +16,12 @@ $ cd Rce-Founder-ruby
 $ gem install httparty thread
 $ ruby main.rb
 ```
+## Key Features
+
+- Utilizes HTTParty for making HTTP requests.
+- Implements multi-threading to enhance scanning speed.
+- Parses lists of URLs from 'list_url.txt' and 'list_url_download.txt' for targeted exploration.
+- Reports potential vulnerabilities, such as 'Index of /vendor/phpunit/phpunit/src/Util/PHP' and 'eval-stdin.php', to a 'save.txt' file.
 
 ## Warning
 
