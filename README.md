@@ -1,4 +1,4 @@
-# Rce-Founder-ruby
+# REC-Scanner-Ruby
 ## Description
 
 A multi-threaded web scanner script designed to explore and identify potential vulnerabilities in web applications. Created by Maven, this tool emphasizes responsible use and urges users to respect others, avoiding any harmful activities.
@@ -11,8 +11,8 @@ A multi-threaded web scanner script designed to explore and identify potential v
 4. Run the script, specifying the desired number of threads when prompted.
 
 ```bash
-$ git clone https://github.com/Abo5/Rce-Founder-ruby.git
-$ cd Rce-Founder-ruby
+$ git clone https://github.com/Abo5/REC-Scanner-Ruby.git
+$ cd REC-Scanner-Ruby
 $ gem install httparty thread
 $ ruby main.rb
 ```
